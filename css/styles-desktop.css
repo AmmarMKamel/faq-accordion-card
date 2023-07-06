@@ -1,0 +1,52 @@
+main {
+  width: 922px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 75px 100px 75px 0;
+}
+
+/* Header Images */
+header {
+  width: 60%;
+  height: auto;
+}
+
+header div {
+  overflow: hidden;
+  position: absolute;
+}
+
+.shadow-img {
+  position: relative;
+  top: -230px;
+  left: -327px;
+  z-index: 1;
+}
+
+.shadow-img img {
+  max-width: 130%;
+}
+
+.main-img {
+  position: relative;
+  top: 0;
+  left: -80px;
+  z-index: 2;
+}
+
+.box-img {
+  display: block;
+  position: absolute;
+  top: 135px;
+  left: -90px;
+  z-index: 3;
+}
+
+.faq {
+  width: 35%;
+}
+
+main h1 {
+  text-align: left;
+}
